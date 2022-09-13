@@ -1,0 +1,32 @@
+{
+  "name": "dojo_leetcode",
+  "version": "1.0.0",
+  "description": "leetcode submissions",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jun3rd/dojo_leetcode.git"
+  },
+  "keywords": [
+    "leetcode",
+    "submission",
+    "answers"
+  ],
+  "author": "Jun Alvarado <jun3rd@gmail.com> (https://github.com/jun3rd)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jun3rd/dojo_leetcode/issues"
+  },
+  "homepage": "https://github.com/jun3rd/dojo_leetcode#readme",
+  "jest": {
+    "coverageDirectory": "public/coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "jsdocs": "^1.0.0"
+  }
+}
